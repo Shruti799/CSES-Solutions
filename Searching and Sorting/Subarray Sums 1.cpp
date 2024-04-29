@@ -31,6 +31,7 @@ int main(){
         if(sum==x) ct++;
         while(sum>=x && i<=j){
             sum -= a[i];
+            if(sum==x) ct++;
             i++;
         }
         j++;
